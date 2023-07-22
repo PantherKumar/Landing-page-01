@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(344, 18%, 70%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(0, 229, 255);
+    background-image: url(https://images.unsplash.com/photo-1536129808005-fae894214c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 18%, 70%, 0.163) ;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(93, 0, 255); */
+}
+#text-div{
+    /* height: 300px; */
+    width: 400px;
+    /* background-color: red; */
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    transform: translate(0, -50%);
+}
+#text-div>h1{
+    color: aliceblue;
+    font-size: 85px;
+    font-family: monument;
+    letter-spacing: 8px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+#small-image-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+#verticle-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -70%;
+    top: -6%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+#verticle-text>h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 15px;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    left: 8%;
+    top: 5%;
+    /* background-color: red; */
+
+}
+#nav img{
+    width: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
